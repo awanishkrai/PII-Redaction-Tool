@@ -1,0 +1,681 @@
+{
+  "description": "Independent hand-built ground truth — see build-ground-truth.js",
+  "annotatedAt": "2026-08-13T19:02:12.821Z",
+  "samples": [
+    {
+      "id": "cover-cin",
+      "section": "Cover page — CIN line",
+      "blockIndex": 2,
+      "text": "CORPORATE IDENTITY NUMBER: U74120MH2012PLC230380",
+      "annotations": [
+        {
+          "start": 27,
+          "end": 48,
+          "type": "cin",
+          "value": "U74120MH2012PLC230380",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "cover-address",
+      "section": "Cover page — registered office cell",
+      "blockIndex": 3,
+      "text": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 127,
+          "type": "address",
+          "value": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "cover-contact-person",
+      "section": "Cover page — contact person cell",
+      "blockIndex": 3,
+      "text": "Alen Wilfred Ferns\nCompany Secretary and Compliance Officer",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "cover-email-phone",
+      "section": "Cover page — email and telephone cell",
+      "blockIndex": 3,
+      "text": "E-mail: cs_nsdl@nsdl.com\nTelephone: +91 22 6944 8500/8400",
+      "annotations": [
+        {
+          "start": 8,
+          "end": 24,
+          "type": "email",
+          "value": "cs_nsdl@nsdl.com",
+          "note": ""
+        },
+        {
+          "start": 36,
+          "end": 57,
+          "type": "phone",
+          "value": "+91 22 6944 8500/8400",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-icici",
+      "section": "BRLM table — ICICI Securities Limited",
+      "blockIndex": 5,
+      "text": "ICICI Securities Limited | Aboli Pitre / Hitesh Malhotra | Telephone: +91 22 6807 7100\nE-mail: nsdl.ipo@icicisecurities.com",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 24,
+          "type": "company",
+          "value": "ICICI Securities Limited",
+          "note": ""
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "type": "name",
+          "value": "Aboli Pitre",
+          "note": ""
+        },
+        {
+          "start": 41,
+          "end": 56,
+          "type": "name",
+          "value": "Hitesh Malhotra",
+          "note": ""
+        },
+        {
+          "start": 70,
+          "end": 86,
+          "type": "phone",
+          "value": "+91 22 6807 7100",
+          "note": ""
+        },
+        {
+          "start": 95,
+          "end": 123,
+          "type": "email",
+          "value": "nsdl.ipo@icicisecurities.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-icici-contact-cell",
+      "section": "BRLM contact cell — ICICI Securities Limited",
+      "blockIndex": 5,
+      "text": "Telephone: +91 22 6807 7100\nE-mail: nsdl.ipo@icicisecurities.com",
+      "annotations": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 6807 7100",
+          "note": ""
+        },
+        {
+          "start": 36,
+          "end": 64,
+          "type": "email",
+          "value": "nsdl.ipo@icicisecurities.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-axis",
+      "section": "BRLM table — Axis Capital Limited",
+      "blockIndex": 5,
+      "text": "Axis Capital Limited | Simran Gadh / Harish Patel | Telephone: +91 22 4325 2183\nE-mail: nsdl.ipo@axiscap.in",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "company",
+          "value": "Axis Capital Limited",
+          "note": ""
+        },
+        {
+          "start": 23,
+          "end": 34,
+          "type": "name",
+          "value": "Simran Gadh",
+          "note": ""
+        },
+        {
+          "start": 37,
+          "end": 49,
+          "type": "name",
+          "value": "Harish Patel",
+          "note": ""
+        },
+        {
+          "start": 63,
+          "end": 79,
+          "type": "phone",
+          "value": "+91 22 4325 2183",
+          "note": ""
+        },
+        {
+          "start": 88,
+          "end": 107,
+          "type": "email",
+          "value": "nsdl.ipo@axiscap.in",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-axis-contact-cell",
+      "section": "BRLM contact cell — Axis Capital Limited",
+      "blockIndex": 5,
+      "text": "Telephone: +91 22 4325 2183\nE-mail: nsdl.ipo@axiscap.in",
+      "annotations": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 4325 2183",
+          "note": ""
+        },
+        {
+          "start": 36,
+          "end": 55,
+          "type": "email",
+          "value": "nsdl.ipo@axiscap.in",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-hsbc",
+      "section": "BRLM table — HSBC Securities and Capital Markets (India) Private Limited",
+      "blockIndex": 5,
+      "text": "HSBC Securities and Capital Markets (India) Private Limited | Harsh Thakkar / Harshit Tayal | Telephone: +91 22 6864 1289\nE-mail: nsdlipo@hsbc.co.in",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 59,
+          "type": "company",
+          "value": "HSBC Securities and Capital Markets (India) Private Limited",
+          "note": ""
+        },
+        {
+          "start": 62,
+          "end": 75,
+          "type": "name",
+          "value": "Harsh Thakkar",
+          "note": ""
+        },
+        {
+          "start": 78,
+          "end": 91,
+          "type": "name",
+          "value": "Harshit Tayal",
+          "note": ""
+        },
+        {
+          "start": 105,
+          "end": 121,
+          "type": "phone",
+          "value": "+91 22 6864 1289",
+          "note": ""
+        },
+        {
+          "start": 130,
+          "end": 148,
+          "type": "email",
+          "value": "nsdlipo@hsbc.co.in",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-hsbc-contact-cell",
+      "section": "BRLM contact cell — HSBC Securities and Capital Markets (India) Private Limited",
+      "blockIndex": 5,
+      "text": "Telephone: +91 22 6864 1289\nE-mail: nsdlipo@hsbc.co.in",
+      "annotations": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 6864 1289",
+          "note": ""
+        },
+        {
+          "start": 36,
+          "end": 54,
+          "type": "email",
+          "value": "nsdlipo@hsbc.co.in",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-idbi-capital",
+      "section": "BRLM table — IDBI Capital Markets & Securities Limited",
+      "blockIndex": 5,
+      "text": "IDBI Capital Markets & Securities Limited | Indrajit Bhagat | Telephone: +91 22 4069 1953\nE-mail: nsdl.ipo@idbicapital.com",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 41,
+          "type": "company",
+          "value": "IDBI Capital Markets & Securities Limited",
+          "note": ""
+        },
+        {
+          "start": 44,
+          "end": 59,
+          "type": "name",
+          "value": "Indrajit Bhagat",
+          "note": ""
+        },
+        {
+          "start": 73,
+          "end": 89,
+          "type": "phone",
+          "value": "+91 22 4069 1953",
+          "note": ""
+        },
+        {
+          "start": 98,
+          "end": 122,
+          "type": "email",
+          "value": "nsdl.ipo@idbicapital.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-idbi-capital-contact-cell",
+      "section": "BRLM contact cell — IDBI Capital Markets & Securities Limited",
+      "blockIndex": 5,
+      "text": "Telephone: +91 22 4069 1953\nE-mail: nsdl.ipo@idbicapital.com",
+      "annotations": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 4069 1953",
+          "note": ""
+        },
+        {
+          "start": 36,
+          "end": 60,
+          "type": "email",
+          "value": "nsdl.ipo@idbicapital.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-motilal",
+      "section": "BRLM table — Motilal Oswal Investment Advisors Limited",
+      "blockIndex": 5,
+      "text": "Motilal Oswal Investment Advisors Limited | Ritu Sharma / Sankita Ajinkya | Telephone: +91 22 7193 4380\nE-mail: nsdl.ipo@motilaloswal.com",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 41,
+          "type": "company",
+          "value": "Motilal Oswal Investment Advisors Limited",
+          "note": ""
+        },
+        {
+          "start": 44,
+          "end": 55,
+          "type": "name",
+          "value": "Ritu Sharma",
+          "note": ""
+        },
+        {
+          "start": 58,
+          "end": 73,
+          "type": "name",
+          "value": "Sankita Ajinkya",
+          "note": ""
+        },
+        {
+          "start": 87,
+          "end": 103,
+          "type": "phone",
+          "value": "+91 22 7193 4380",
+          "note": ""
+        },
+        {
+          "start": 112,
+          "end": 137,
+          "type": "email",
+          "value": "nsdl.ipo@motilaloswal.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-motilal-contact-cell",
+      "section": "BRLM contact cell — Motilal Oswal Investment Advisors Limited",
+      "blockIndex": 5,
+      "text": "Telephone: +91 22 7193 4380\nE-mail: nsdl.ipo@motilaloswal.com",
+      "annotations": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 7193 4380",
+          "note": ""
+        },
+        {
+          "start": 36,
+          "end": 61,
+          "type": "email",
+          "value": "nsdl.ipo@motilaloswal.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-sbi",
+      "section": "BRLM table — SBI Capital Markets Limited",
+      "blockIndex": 5,
+      "text": "SBI Capital Markets Limited | Sylvia Mendonca / Prashant Patankar | Telephone: +91 22 4006 9807\nE-mail: nsdl.ipo@sbicaps.com",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "company",
+          "value": "SBI Capital Markets Limited",
+          "note": ""
+        },
+        {
+          "start": 30,
+          "end": 45,
+          "type": "name",
+          "value": "Sylvia Mendonca",
+          "note": ""
+        },
+        {
+          "start": 48,
+          "end": 65,
+          "type": "name",
+          "value": "Prashant Patankar",
+          "note": ""
+        },
+        {
+          "start": 79,
+          "end": 95,
+          "type": "phone",
+          "value": "+91 22 4006 9807",
+          "note": ""
+        },
+        {
+          "start": 104,
+          "end": 124,
+          "type": "email",
+          "value": "nsdl.ipo@sbicaps.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "brlm-sbi-contact-cell",
+      "section": "BRLM contact cell — SBI Capital Markets Limited",
+      "blockIndex": 5,
+      "text": "Telephone: +91 22 4006 9807\nE-mail: nsdl.ipo@sbicaps.com",
+      "annotations": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 4006 9807",
+          "note": ""
+        },
+        {
+          "start": 36,
+          "end": 56,
+          "type": "email",
+          "value": "nsdl.ipo@sbicaps.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "registrar-row",
+      "section": "Registrar table",
+      "blockIndex": 7,
+      "text": "MUFG Intime India Private Limited (Formerly Link Intime India Private Limited) | Shanti Gopalkrishnan | Telephone: +91 810 811 4949\nE-mail: nsdl.ipo@in.mpms.mufg.com",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 33,
+          "type": "company",
+          "value": "MUFG Intime India Private Limited",
+          "note": ""
+        },
+        {
+          "start": 44,
+          "end": 77,
+          "type": "company",
+          "value": "Link Intime India Private Limited",
+          "note": "former name in parentheses"
+        },
+        {
+          "start": 81,
+          "end": 101,
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        },
+        {
+          "start": 115,
+          "end": 131,
+          "type": "phone",
+          "value": "+91 810 811 4949",
+          "note": ""
+        },
+        {
+          "start": 140,
+          "end": 165,
+          "type": "email",
+          "value": "nsdl.ipo@in.mpms.mufg.com",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "kmp-table",
+      "section": "KMP / Board table",
+      "blockIndex": 9,
+      "text": "Vijay Chandok | Managing Director and Chief Executive Officer | 00000001\nAlen Wilfred Ferns | Company Secretary and Compliance Officer | 00000002\nShanti Gopalkrishnan | Contact Person, Registrar | 00000003",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "start": 73,
+          "end": 91,
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "note": ""
+        },
+        {
+          "start": 146,
+          "end": 166,
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "kmp-vijay-bio",
+      "section": "KMP biographical — Vijay Chandok",
+      "blockIndex": 10,
+      "text": "Vijay Chandok is the Managing Director and Chief Executive Officer of our Company. Date of Birth: November 28, 1970. He has been associated with the securities market for over two decades.",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "start": 98,
+          "end": 115,
+          "type": "date_of_birth",
+          "value": "November 28, 1970",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "kmp-alen-bio",
+      "section": "KMP biographical — Alen Wilfred Ferns",
+      "blockIndex": 11,
+      "text": "Alen Wilfred Ferns is the Company Secretary and Compliance Officer of our Company. Contact Person: Alen Wilfred Ferns. Date of Birth: March 15, 1982.",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "note": ""
+        },
+        {
+          "start": 99,
+          "end": 117,
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "note": ""
+        },
+        {
+          "start": 134,
+          "end": 148,
+          "type": "date_of_birth",
+          "value": "March 15, 1982",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "statutory-block",
+      "section": "Statutory details — registered office repeat",
+      "blockIndex": 12,
+      "text": "Registered Office: 301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India. Corporate Identity Number: U74120MH2012PLC230380.",
+      "annotations": [
+        {
+          "start": 19,
+          "end": 146,
+          "type": "address",
+          "value": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "note": ""
+        },
+        {
+          "start": 175,
+          "end": 196,
+          "type": "cin",
+          "value": "U74120MH2012PLC230380",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "incorporation-history",
+      "section": "Corporate history paragraph",
+      "blockIndex": 13,
+      "text": "Our Company was incorporated on April 27, 2012, as NSDL Depository Limited at Mumbai. Subsequent to the Scheme of Arrangement, the name was changed to National Securities Depository Limited.",
+      "annotations": [
+        {
+          "start": 51,
+          "end": 74,
+          "type": "company",
+          "value": "NSDL Depository Limited",
+          "note": ""
+        },
+        {
+          "start": 151,
+          "end": 189,
+          "type": "company",
+          "value": "National Securities Depository Limited",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "selling-shareholders",
+      "section": "Selling shareholders paragraph",
+      "blockIndex": 14,
+      "text": "IDBI Bank Limited and State Bank of India are participating as Selling Shareholders in the Offer. HDFC Bank Limited is participating as a Selling Shareholder in the Offer.",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "company",
+          "value": "IDBI Bank Limited",
+          "note": ""
+        },
+        {
+          "start": 22,
+          "end": 41,
+          "type": "company",
+          "value": "State Bank of India",
+          "note": ""
+        },
+        {
+          "start": 98,
+          "end": 115,
+          "type": "company",
+          "value": "HDFC Bank Limited",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "appointment-paragraph",
+      "section": "Running text — appointments (name recall stress test)",
+      "blockIndex": 16,
+      "text": "Samar Banwat was appointed as interim in-charge of our Company. Vijay Chandok was appointed as Managing Director and Chief Executive Officer for a period of five years effective from November 28, 2024.",
+      "annotations": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "name",
+          "value": "Samar Banwat",
+          "note": "no title cue — plain running text"
+        },
+        {
+          "start": 64,
+          "end": 77,
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": "second mention; appointment date nearby not DOB"
+        }
+      ]
+    },
+    {
+      "id": "boilerplate-negative",
+      "section": "Boilerplate — should NOT be flagged",
+      "blockIndex": 15,
+      "text": "There have been no financing arrangements whereby our Directors and their relatives have financed the purchase of securities. For details of our Public Interest Directors, refer to Our Management – Board of Directors.",
+      "annotations": []
+    }
+  ]
+}

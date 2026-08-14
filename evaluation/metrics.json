@@ -1,0 +1,99 @@
+{
+  "realMetrics": {
+    "address": {
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.75,
+      "recall": 1,
+      "f1": 0.8571428571428571
+    },
+    "name": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1,
+      "recall": 0.7272727272727273,
+      "f1": 0.8421052631578948
+    },
+    "email": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "phone": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.8,
+      "f1": 0.888888888888889
+    },
+    "company": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "cin": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "date_of_birth": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    }
+  },
+  "syntheticMetrics": {
+    "ssn": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "credit_card": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "ip_address": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    }
+  },
+  "nameLayers": {
+    "compromise_only": {
+      "tp": 3,
+      "fn": 8,
+      "recall": 0.2727272727272727
+    },
+    "compromise_plus_title_cue": {
+      "tp": 8,
+      "fn": 3,
+      "recall": 0.7272727272727273
+    },
+    "recall_improvement": 0.4545454545454546
+  }
+}

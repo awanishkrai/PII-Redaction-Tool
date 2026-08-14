@@ -1,0 +1,20 @@
+{
+  "name": "pii-redaction-tool",
+  "version": "1.0.0",
+  "description": "PII redaction tool for SEBI Red Herring Prospectus documents",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build:source": "node scripts/build-source-docx.js",
+    "redact": "node src/index.js",
+    "evaluate": "node evaluation/evaluate.js",
+    "validate": "node evaluation/validate.js",
+    "all": "npm run build:source && npm run redact && npm run validate"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "compromise": "^14.14.4",
+    "docx": "^9.5.0",
+    "jszip": "^3.10.1"
+  }
+}

@@ -1,0 +1,2362 @@
+{
+  "realSummary": {
+    "name": {
+      "tp": 15,
+      "fp": 0,
+      "fn": 6,
+      "tpItems": [
+        {
+          "sampleId": "cover-contact-person",
+          "predicted": "Alen Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici",
+          "predicted": "Aboli Pitre",
+          "gold": "Aboli Pitre",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici",
+          "predicted": "Hitesh Malhotra",
+          "gold": "Hitesh Malhotra",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis",
+          "predicted": "Simran Gadh",
+          "gold": "Simran Gadh",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis",
+          "predicted": "Harish Patel",
+          "gold": "Harish Patel",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "predicted": "Harsh Thakkar",
+          "gold": "Harsh Thakkar",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "predicted": "Harshit Tayal",
+          "gold": "Harshit Tayal",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "predicted": "Ritu Sharma",
+          "gold": "Ritu Sharma",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "predicted": "Sankita Ajinkya",
+          "gold": "Sankita Ajinkya",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "predicted": "Sylvia Mendonca",
+          "gold": "Sylvia Mendonca",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "predicted": "Prashant Patankar",
+          "gold": "Prashant Patankar",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "kmp-table",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "kmp-alen-bio",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "appointment-paragraph",
+          "predicted": "Samar Banwat",
+          "gold": "Samar Banwat",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "appointment-paragraph",
+          "predicted": "Vijay Chandok",
+          "gold": "Vijay Chandok",
+          "type": "name",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [
+        {
+          "sampleId": "brlm-idbi-capital",
+          "type": "name",
+          "value": "Indrajit Bhagat",
+          "note": ""
+        },
+        {
+          "sampleId": "registrar-row",
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-table",
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-table",
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-vijay-bio",
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-alen-bio",
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "note": ""
+        }
+      ],
+      "precision": 1,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333333
+    },
+    "email": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "cover-email-phone",
+          "predicted": "cs_nsdl@nsdl.com",
+          "gold": "cs_nsdl@nsdl.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici",
+          "predicted": "nsdl.ipo@icicisecurities.com",
+          "gold": "nsdl.ipo@icicisecurities.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici-contact-cell",
+          "predicted": "nsdl.ipo@icicisecurities.com",
+          "gold": "nsdl.ipo@icicisecurities.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis",
+          "predicted": "nsdl.ipo@axiscap.in",
+          "gold": "nsdl.ipo@axiscap.in",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis-contact-cell",
+          "predicted": "nsdl.ipo@axiscap.in",
+          "gold": "nsdl.ipo@axiscap.in",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "predicted": "nsdlipo@hsbc.co.in",
+          "gold": "nsdlipo@hsbc.co.in",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc-contact-cell",
+          "predicted": "nsdlipo@hsbc.co.in",
+          "gold": "nsdlipo@hsbc.co.in",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-idbi-capital",
+          "predicted": "nsdl.ipo@idbicapital.com",
+          "gold": "nsdl.ipo@idbicapital.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-idbi-capital-contact-cell",
+          "predicted": "nsdl.ipo@idbicapital.com",
+          "gold": "nsdl.ipo@idbicapital.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "predicted": "nsdl.ipo@motilaloswal.com",
+          "gold": "nsdl.ipo@motilaloswal.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal-contact-cell",
+          "predicted": "nsdl.ipo@motilaloswal.com",
+          "gold": "nsdl.ipo@motilaloswal.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "predicted": "nsdl.ipo@sbicaps.com",
+          "gold": "nsdl.ipo@sbicaps.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi-contact-cell",
+          "predicted": "nsdl.ipo@sbicaps.com",
+          "gold": "nsdl.ipo@sbicaps.com",
+          "type": "email",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "registrar-row",
+          "predicted": "nsdl.ipo@in.mpms.mufg.com",
+          "gold": "nsdl.ipo@in.mpms.mufg.com",
+          "type": "email",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [],
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "phone": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 1,
+      "tpItems": [
+        {
+          "sampleId": "cover-email-phone",
+          "predicted": "+91 22 6944 8500/8400",
+          "gold": "+91 22 6944 8500/8400",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici",
+          "predicted": "+91 22 6807 7100",
+          "gold": "+91 22 6807 7100",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici-contact-cell",
+          "predicted": "+91 22 6807 7100",
+          "gold": "+91 22 6807 7100",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis",
+          "predicted": "+91 22 4325 2183",
+          "gold": "+91 22 4325 2183",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis-contact-cell",
+          "predicted": "+91 22 4325 2183",
+          "gold": "+91 22 4325 2183",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "predicted": "+91 22 6864 1289",
+          "gold": "+91 22 6864 1289",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc-contact-cell",
+          "predicted": "+91 22 6864 1289",
+          "gold": "+91 22 6864 1289",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-idbi-capital",
+          "predicted": "+91 22 4069 1953",
+          "gold": "+91 22 4069 1953",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-idbi-capital-contact-cell",
+          "predicted": "+91 22 4069 1953",
+          "gold": "+91 22 4069 1953",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "predicted": "+91 22 7193 4380",
+          "gold": "+91 22 7193 4380",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal-contact-cell",
+          "predicted": "+91 22 7193 4380",
+          "gold": "+91 22 7193 4380",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "predicted": "+91 22 4006 9807",
+          "gold": "+91 22 4006 9807",
+          "type": "phone",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi-contact-cell",
+          "predicted": "+91 22 4006 9807",
+          "gold": "+91 22 4006 9807",
+          "type": "phone",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [
+        {
+          "sampleId": "registrar-row",
+          "type": "phone",
+          "value": "+91 810 811 4949",
+          "note": ""
+        }
+      ],
+      "precision": 1,
+      "recall": 0.9285714285714286,
+      "f1": 0.962962962962963
+    },
+    "company": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "brlm-icici",
+          "predicted": "ICICI Securities Limited",
+          "gold": "ICICI Securities Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis",
+          "predicted": "Axis Capital Limited",
+          "gold": "Axis Capital Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "predicted": "HSBC Securities and Capital Markets (India) Private Limited",
+          "gold": "HSBC Securities and Capital Markets (India) Private Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-idbi-capital",
+          "predicted": "IDBI Capital Markets & Securities Limited",
+          "gold": "IDBI Capital Markets & Securities Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "predicted": "Motilal Oswal Investment Advisors Limited",
+          "gold": "Motilal Oswal Investment Advisors Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "predicted": "SBI Capital Markets Limited",
+          "gold": "SBI Capital Markets Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "registrar-row",
+          "predicted": "MUFG Intime India Private Limited",
+          "gold": "MUFG Intime India Private Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "registrar-row",
+          "predicted": "Link Intime India Private Limited",
+          "gold": "Link Intime India Private Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "incorporation-history",
+          "predicted": "NSDL Depository Limited",
+          "gold": "NSDL Depository Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "incorporation-history",
+          "predicted": "National Securities Depository Limited.",
+          "gold": "National Securities Depository Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "selling-shareholders",
+          "predicted": "IDBI Bank Limited",
+          "gold": "IDBI Bank Limited",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "selling-shareholders",
+          "predicted": "State Bank of India",
+          "gold": "State Bank of India",
+          "type": "company",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "selling-shareholders",
+          "predicted": "HDFC Bank Limited",
+          "gold": "HDFC Bank Limited",
+          "type": "company",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [],
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "address": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "cover-address",
+          "predicted": "C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "gold": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "type": "address",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "statutory-block",
+          "predicted": "C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "gold": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "type": "address",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [
+        {
+          "sampleId": "registrar-row",
+          "type": "address",
+          "value": "+91 810 811 4949"
+        }
+      ],
+      "fnItems": [],
+      "precision": 0.6666666666666666,
+      "recall": 1,
+      "f1": 0.8
+    },
+    "cin": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "cover-cin",
+          "predicted": "U74120MH2012PLC230380",
+          "gold": "U74120MH2012PLC230380",
+          "type": "cin",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "statutory-block",
+          "predicted": "U74120MH2012PLC230380",
+          "gold": "U74120MH2012PLC230380",
+          "type": "cin",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [],
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "date_of_birth": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "kmp-vijay-bio",
+          "predicted": "November 28, 1970",
+          "gold": "November 28, 1970",
+          "type": "date_of_birth",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "kmp-alen-bio",
+          "predicted": "March 15, 1982",
+          "gold": "March 15, 1982",
+          "type": "date_of_birth",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [],
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    }
+  },
+  "syntheticSummary": {
+    "ssn": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "predicted": "123-45-6789",
+          "gold": "123-45-6789",
+          "type": "ssn",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "predicted": "987-65-4321",
+          "gold": "987-65-4321",
+          "type": "ssn",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "synthetic-ssn-only",
+          "predicted": "456-78-9012",
+          "gold": "456-78-9012",
+          "type": "ssn",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [],
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "credit_card": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "predicted": "4111111111111111",
+          "gold": "4111111111111111",
+          "type": "credit_card",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "predicted": "5555 5555 5555 4444",
+          "gold": "5555 5555 5555 4444",
+          "type": "credit_card",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [],
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "ip_address": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "predicted": "192.168.10.45",
+          "gold": "192.168.10.45",
+          "type": "ip_address",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "predicted": "10.20.30.40",
+          "gold": "10.20.30.40",
+          "type": "ip_address",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [],
+      "fnItems": [],
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "date_of_birth": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "tpItems": [
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "predicted": "January 14, 1985",
+          "gold": "January 14, 1985",
+          "type": "date_of_birth",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "synthetic-born-on",
+          "predicted": "22/08/1978",
+          "gold": "22/08/1978",
+          "type": "date_of_birth",
+          "sampleOverlap": true
+        }
+      ],
+      "fpItems": [
+        {
+          "sampleId": "synthetic-mixed-paragraph",
+          "type": "date_of_birth",
+          "value": "January 14, 2025"
+        },
+        {
+          "sampleId": "synthetic-born-on",
+          "type": "date_of_birth",
+          "value": "22/08/2025"
+        }
+      ],
+      "fnItems": [],
+      "precision": 0.5,
+      "recall": 1,
+      "f1": 0.6666666666666666
+    }
+  },
+  "nameLayers": {
+    "compromise_only": {
+      "tp": 3,
+      "fn": 18,
+      "recall": 0.14285714285714285,
+      "tpItems": [
+        {
+          "sampleId": "cover-contact-person",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "kmp-table",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "kmp-alen-bio",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        }
+      ],
+      "fnItems": [
+        {
+          "sampleId": "brlm-icici",
+          "type": "name",
+          "value": "Aboli Pitre",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-icici",
+          "type": "name",
+          "value": "Hitesh Malhotra",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-axis",
+          "type": "name",
+          "value": "Simran Gadh",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-axis",
+          "type": "name",
+          "value": "Harish Patel",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "type": "name",
+          "value": "Harsh Thakkar",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "type": "name",
+          "value": "Harshit Tayal",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-idbi-capital",
+          "type": "name",
+          "value": "Indrajit Bhagat",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "type": "name",
+          "value": "Ritu Sharma",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "type": "name",
+          "value": "Sankita Ajinkya",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "type": "name",
+          "value": "Sylvia Mendonca",
+          "note": ""
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "type": "name",
+          "value": "Prashant Patankar",
+          "note": ""
+        },
+        {
+          "sampleId": "registrar-row",
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-table",
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-table",
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-vijay-bio",
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-alen-bio",
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "note": ""
+        },
+        {
+          "sampleId": "appointment-paragraph",
+          "type": "name",
+          "value": "Samar Banwat",
+          "note": "no title cue — plain running text"
+        },
+        {
+          "sampleId": "appointment-paragraph",
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": "second mention; appointment date nearby not DOB"
+        }
+      ]
+    },
+    "compromise_plus_title_cue": {
+      "tp": 15,
+      "fn": 6,
+      "recall": 0.7142857142857143,
+      "tpItems": [
+        {
+          "sampleId": "cover-contact-person",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici",
+          "predicted": "Aboli Pitre",
+          "gold": "Aboli Pitre",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-icici",
+          "predicted": "Hitesh Malhotra",
+          "gold": "Hitesh Malhotra",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis",
+          "predicted": "Simran Gadh",
+          "gold": "Simran Gadh",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-axis",
+          "predicted": "Harish Patel",
+          "gold": "Harish Patel",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "predicted": "Harsh Thakkar",
+          "gold": "Harsh Thakkar",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-hsbc",
+          "predicted": "Harshit Tayal",
+          "gold": "Harshit Tayal",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "predicted": "Ritu Sharma",
+          "gold": "Ritu Sharma",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-motilal",
+          "predicted": "Sankita Ajinkya",
+          "gold": "Sankita Ajinkya",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "predicted": "Sylvia Mendonca",
+          "gold": "Sylvia Mendonca",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "brlm-sbi",
+          "predicted": "Prashant Patankar",
+          "gold": "Prashant Patankar",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "kmp-table",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "kmp-alen-bio",
+          "predicted": "Wilfred Ferns",
+          "gold": "Alen Wilfred Ferns",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "appointment-paragraph",
+          "predicted": "Samar Banwat",
+          "gold": "Samar Banwat",
+          "type": "name",
+          "sampleOverlap": true
+        },
+        {
+          "sampleId": "appointment-paragraph",
+          "predicted": "Vijay Chandok",
+          "gold": "Vijay Chandok",
+          "type": "name",
+          "sampleOverlap": true
+        }
+      ],
+      "fnItems": [
+        {
+          "sampleId": "brlm-idbi-capital",
+          "type": "name",
+          "value": "Indrajit Bhagat",
+          "note": ""
+        },
+        {
+          "sampleId": "registrar-row",
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-table",
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-table",
+          "type": "name",
+          "value": "Shanti Gopalkrishnan",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-vijay-bio",
+          "type": "name",
+          "value": "Vijay Chandok",
+          "note": ""
+        },
+        {
+          "sampleId": "kmp-alen-bio",
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "note": ""
+        }
+      ]
+    },
+    "recall_improvement": 0.5714285714285714
+  },
+  "sanity": {
+    "redactionCoverage": [
+      {
+        "sampleId": "cover-cin",
+        "type": "cin",
+        "value": "U74120MH2012PLC230380",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "cover-address",
+        "type": "address",
+        "value": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+        "redacted": true,
+        "inSubstitutionMap": false,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "cover-contact-person",
+        "type": "name",
+        "value": "Alen Wilfred Ferns",
+        "redacted": false,
+        "inSubstitutionMap": true,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "cover-email-phone",
+        "type": "email",
+        "value": "cs_nsdl@nsdl.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "cover-email-phone",
+        "type": "phone",
+        "value": "+91 22 6944 8500/8400",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-icici",
+        "type": "company",
+        "value": "ICICI Securities Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-icici",
+        "type": "name",
+        "value": "Aboli Pitre",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-icici",
+        "type": "name",
+        "value": "Hitesh Malhotra",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-icici",
+        "type": "phone",
+        "value": "+91 22 6807 7100",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-icici",
+        "type": "email",
+        "value": "nsdl.ipo@icicisecurities.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-icici-contact-cell",
+        "type": "phone",
+        "value": "+91 22 6807 7100",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-icici-contact-cell",
+        "type": "email",
+        "value": "nsdl.ipo@icicisecurities.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-axis",
+        "type": "company",
+        "value": "Axis Capital Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-axis",
+        "type": "name",
+        "value": "Simran Gadh",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-axis",
+        "type": "name",
+        "value": "Harish Patel",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-axis",
+        "type": "phone",
+        "value": "+91 22 4325 2183",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-axis",
+        "type": "email",
+        "value": "nsdl.ipo@axiscap.in",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-axis-contact-cell",
+        "type": "phone",
+        "value": "+91 22 4325 2183",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-axis-contact-cell",
+        "type": "email",
+        "value": "nsdl.ipo@axiscap.in",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-hsbc",
+        "type": "company",
+        "value": "HSBC Securities and Capital Markets (India) Private Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-hsbc",
+        "type": "name",
+        "value": "Harsh Thakkar",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-hsbc",
+        "type": "name",
+        "value": "Harshit Tayal",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-hsbc",
+        "type": "phone",
+        "value": "+91 22 6864 1289",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-hsbc",
+        "type": "email",
+        "value": "nsdlipo@hsbc.co.in",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-hsbc-contact-cell",
+        "type": "phone",
+        "value": "+91 22 6864 1289",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-hsbc-contact-cell",
+        "type": "email",
+        "value": "nsdlipo@hsbc.co.in",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-idbi-capital",
+        "type": "company",
+        "value": "IDBI Capital Markets & Securities Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-idbi-capital",
+        "type": "name",
+        "value": "Indrajit Bhagat",
+        "redacted": false,
+        "inSubstitutionMap": false,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "brlm-idbi-capital",
+        "type": "phone",
+        "value": "+91 22 4069 1953",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-idbi-capital",
+        "type": "email",
+        "value": "nsdl.ipo@idbicapital.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-idbi-capital-contact-cell",
+        "type": "phone",
+        "value": "+91 22 4069 1953",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-idbi-capital-contact-cell",
+        "type": "email",
+        "value": "nsdl.ipo@idbicapital.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-motilal",
+        "type": "company",
+        "value": "Motilal Oswal Investment Advisors Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-motilal",
+        "type": "name",
+        "value": "Ritu Sharma",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-motilal",
+        "type": "name",
+        "value": "Sankita Ajinkya",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-motilal",
+        "type": "phone",
+        "value": "+91 22 7193 4380",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-motilal",
+        "type": "email",
+        "value": "nsdl.ipo@motilaloswal.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-motilal-contact-cell",
+        "type": "phone",
+        "value": "+91 22 7193 4380",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-motilal-contact-cell",
+        "type": "email",
+        "value": "nsdl.ipo@motilaloswal.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-sbi",
+        "type": "company",
+        "value": "SBI Capital Markets Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-sbi",
+        "type": "name",
+        "value": "Sylvia Mendonca",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-sbi",
+        "type": "name",
+        "value": "Prashant Patankar",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-sbi",
+        "type": "phone",
+        "value": "+91 22 4006 9807",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-sbi",
+        "type": "email",
+        "value": "nsdl.ipo@sbicaps.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-sbi-contact-cell",
+        "type": "phone",
+        "value": "+91 22 4006 9807",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "brlm-sbi-contact-cell",
+        "type": "email",
+        "value": "nsdl.ipo@sbicaps.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "registrar-row",
+        "type": "company",
+        "value": "MUFG Intime India Private Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "registrar-row",
+        "type": "company",
+        "value": "Link Intime India Private Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "registrar-row",
+        "type": "name",
+        "value": "Shanti Gopalkrishnan",
+        "redacted": false,
+        "inSubstitutionMap": false,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "registrar-row",
+        "type": "phone",
+        "value": "+91 810 811 4949",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "registrar-row",
+        "type": "email",
+        "value": "nsdl.ipo@in.mpms.mufg.com",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "kmp-table",
+        "type": "name",
+        "value": "Vijay Chandok",
+        "redacted": false,
+        "inSubstitutionMap": true,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "kmp-table",
+        "type": "name",
+        "value": "Alen Wilfred Ferns",
+        "redacted": false,
+        "inSubstitutionMap": true,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "kmp-table",
+        "type": "name",
+        "value": "Shanti Gopalkrishnan",
+        "redacted": false,
+        "inSubstitutionMap": false,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "kmp-vijay-bio",
+        "type": "name",
+        "value": "Vijay Chandok",
+        "redacted": false,
+        "inSubstitutionMap": true,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "kmp-vijay-bio",
+        "type": "date_of_birth",
+        "value": "November 28, 1970",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "kmp-alen-bio",
+        "type": "name",
+        "value": "Alen Wilfred Ferns",
+        "redacted": false,
+        "inSubstitutionMap": true,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "kmp-alen-bio",
+        "type": "name",
+        "value": "Alen Wilfred Ferns",
+        "redacted": false,
+        "inSubstitutionMap": true,
+        "knownMiss": true
+      },
+      {
+        "sampleId": "kmp-alen-bio",
+        "type": "date_of_birth",
+        "value": "March 15, 1982",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "statutory-block",
+        "type": "address",
+        "value": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+        "redacted": true,
+        "inSubstitutionMap": false,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "statutory-block",
+        "type": "cin",
+        "value": "U74120MH2012PLC230380",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "incorporation-history",
+        "type": "company",
+        "value": "NSDL Depository Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "incorporation-history",
+        "type": "company",
+        "value": "National Securities Depository Limited",
+        "redacted": true,
+        "inSubstitutionMap": false,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "selling-shareholders",
+        "type": "company",
+        "value": "IDBI Bank Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "selling-shareholders",
+        "type": "company",
+        "value": "State Bank of India",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "selling-shareholders",
+        "type": "company",
+        "value": "HDFC Bank Limited",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "appointment-paragraph",
+        "type": "name",
+        "value": "Samar Banwat",
+        "redacted": true,
+        "inSubstitutionMap": true,
+        "knownMiss": false
+      },
+      {
+        "sampleId": "appointment-paragraph",
+        "type": "name",
+        "value": "Vijay Chandok",
+        "redacted": false,
+        "inSubstitutionMap": true,
+        "knownMiss": true
+      }
+    ],
+    "consistencySpotChecks": [
+      {
+        "entity": "Alen Wilfred Ferns",
+        "type": "name",
+        "sourceOccurrences": 4,
+        "mappedTo": "Vaijayanthi Reddy-Ganaka",
+        "fakeOccurrencesInOutput": 1,
+        "originalStillPresentInOutput": true,
+        "consistent": false
+      },
+      {
+        "entity": "Vijay Chandok",
+        "type": "name",
+        "sourceOccurrences": 3,
+        "mappedTo": "Gemini Dwivedi",
+        "fakeOccurrencesInOutput": 1,
+        "originalStillPresentInOutput": true,
+        "consistent": false
+      },
+      {
+        "entity": "ICICI Securities Limited",
+        "type": "company",
+        "sourceOccurrences": 1,
+        "mappedTo": "Asan, Chaturvedi and Agarwal Limited",
+        "fakeOccurrencesInOutput": 1,
+        "originalStillPresentInOutput": false,
+        "consistent": true
+      },
+      {
+        "entity": "301, 3rd Floor, Naman Chambers, G-Block, Plot No. C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+        "type": "address",
+        "sourceOccurrences": 2,
+        "mappedTo": "(not in substitution map)",
+        "fakeOccurrencesInOutput": 0,
+        "originalStillPresentInOutput": false,
+        "consistent": false
+      }
+    ],
+    "falsePositiveBoilerplate": [],
+    "structureCheck": [
+      {
+        "term": "RED HERRING PROSPECTUS",
+        "presentInRedactedOutput": true
+      },
+      {
+        "term": "BOOK RUNNING LEAD MANAGERS",
+        "presentInRedactedOutput": true
+      },
+      {
+        "term": "REGISTERED OFFICE",
+        "presentInRedactedOutput": true
+      },
+      {
+        "term": "Name",
+        "presentInRedactedOutput": true
+      },
+      {
+        "term": "Designation",
+        "presentInRedactedOutput": true
+      },
+      {
+        "term": "DIN",
+        "presentInRedactedOutput": true
+      }
+    ],
+    "readerBugFixed": true,
+    "tableBlockCount": {
+      "source": 4,
+      "redacted": 4
+    }
+  },
+  "realDetectorOutput": [
+    {
+      "id": "cover-cin",
+      "predictions": [
+        {
+          "start": 27,
+          "end": 48,
+          "type": "cin",
+          "value": "U74120MH2012PLC230380",
+          "priority": 82
+        }
+      ]
+    },
+    {
+      "id": "cover-address",
+      "predictions": [
+        {
+          "start": 49,
+          "end": 127,
+          "type": "address",
+          "value": "C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "meta": {
+            "pin": "400 051"
+          },
+          "priority": 70
+        }
+      ]
+    },
+    {
+      "id": "cover-contact-person",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "name",
+          "value": "Alen Wilfred Ferns",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        }
+      ]
+    },
+    {
+      "id": "cover-email-phone",
+      "predictions": [
+        {
+          "start": 8,
+          "end": 24,
+          "type": "email",
+          "value": "cs_nsdl@nsdl.com",
+          "priority": 90
+        },
+        {
+          "start": 36,
+          "end": 57,
+          "type": "phone",
+          "value": "+91 22 6944 8500/8400",
+          "priority": 85
+        }
+      ]
+    },
+    {
+      "id": "brlm-icici",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 24,
+          "type": "company",
+          "value": "ICICI Securities Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "type": "name",
+          "value": "Aboli Pitre",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 41,
+          "end": 56,
+          "type": "name",
+          "value": "Hitesh Malhotra",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 70,
+          "end": 86,
+          "type": "phone",
+          "value": "+91 22 6807 7100",
+          "priority": 85
+        },
+        {
+          "start": 95,
+          "end": 123,
+          "type": "email",
+          "value": "nsdl.ipo@icicisecurities.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-icici-contact-cell",
+      "predictions": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 6807 7100",
+          "priority": 85
+        },
+        {
+          "start": 36,
+          "end": 64,
+          "type": "email",
+          "value": "nsdl.ipo@icicisecurities.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-axis",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "company",
+          "value": "Axis Capital Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 23,
+          "end": 34,
+          "type": "name",
+          "value": "Simran Gadh",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 37,
+          "end": 49,
+          "type": "name",
+          "value": "Harish Patel",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 63,
+          "end": 79,
+          "type": "phone",
+          "value": "+91 22 4325 2183",
+          "priority": 85
+        },
+        {
+          "start": 88,
+          "end": 107,
+          "type": "email",
+          "value": "nsdl.ipo@axiscap.in",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-axis-contact-cell",
+      "predictions": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 4325 2183",
+          "priority": 85
+        },
+        {
+          "start": 36,
+          "end": 55,
+          "type": "email",
+          "value": "nsdl.ipo@axiscap.in",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-hsbc",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 59,
+          "type": "company",
+          "value": "HSBC Securities and Capital Markets (India) Private Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 62,
+          "end": 75,
+          "type": "name",
+          "value": "Harsh Thakkar",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 78,
+          "end": 91,
+          "type": "name",
+          "value": "Harshit Tayal",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 105,
+          "end": 121,
+          "type": "phone",
+          "value": "+91 22 6864 1289",
+          "priority": 85
+        },
+        {
+          "start": 130,
+          "end": 148,
+          "type": "email",
+          "value": "nsdlipo@hsbc.co.in",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-hsbc-contact-cell",
+      "predictions": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 6864 1289",
+          "priority": 85
+        },
+        {
+          "start": 36,
+          "end": 54,
+          "type": "email",
+          "value": "nsdlipo@hsbc.co.in",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-idbi-capital",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 41,
+          "type": "company",
+          "value": "IDBI Capital Markets & Securities Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 73,
+          "end": 89,
+          "type": "phone",
+          "value": "+91 22 4069 1953",
+          "priority": 85
+        },
+        {
+          "start": 98,
+          "end": 122,
+          "type": "email",
+          "value": "nsdl.ipo@idbicapital.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-idbi-capital-contact-cell",
+      "predictions": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 4069 1953",
+          "priority": 85
+        },
+        {
+          "start": 36,
+          "end": 60,
+          "type": "email",
+          "value": "nsdl.ipo@idbicapital.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-motilal",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 41,
+          "type": "company",
+          "value": "Motilal Oswal Investment Advisors Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 44,
+          "end": 55,
+          "type": "name",
+          "value": "Ritu Sharma",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 58,
+          "end": 73,
+          "type": "name",
+          "value": "Sankita Ajinkya",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 87,
+          "end": 103,
+          "type": "phone",
+          "value": "+91 22 7193 4380",
+          "priority": 85
+        },
+        {
+          "start": 112,
+          "end": 137,
+          "type": "email",
+          "value": "nsdl.ipo@motilaloswal.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-motilal-contact-cell",
+      "predictions": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 7193 4380",
+          "priority": 85
+        },
+        {
+          "start": 36,
+          "end": 61,
+          "type": "email",
+          "value": "nsdl.ipo@motilaloswal.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-sbi",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "company",
+          "value": "SBI Capital Markets Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 30,
+          "end": 45,
+          "type": "name",
+          "value": "Sylvia Mendonca",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 48,
+          "end": 65,
+          "type": "name",
+          "value": "Prashant Patankar",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 79,
+          "end": 95,
+          "type": "phone",
+          "value": "+91 22 4006 9807",
+          "priority": 85
+        },
+        {
+          "start": 104,
+          "end": 124,
+          "type": "email",
+          "value": "nsdl.ipo@sbicaps.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "brlm-sbi-contact-cell",
+      "predictions": [
+        {
+          "start": 11,
+          "end": 27,
+          "type": "phone",
+          "value": "+91 22 4006 9807",
+          "priority": 85
+        },
+        {
+          "start": 36,
+          "end": 56,
+          "type": "email",
+          "value": "nsdl.ipo@sbicaps.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "registrar-row",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 33,
+          "type": "company",
+          "value": "MUFG Intime India Private Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 44,
+          "end": 77,
+          "type": "company",
+          "value": "Link Intime India Private Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 114,
+          "end": 131,
+          "type": "address",
+          "value": "+91 810 811 4949",
+          "meta": {
+            "pin": "810 811"
+          },
+          "priority": 70
+        },
+        {
+          "start": 140,
+          "end": 165,
+          "type": "email",
+          "value": "nsdl.ipo@in.mpms.mufg.com",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "kmp-table",
+      "predictions": [
+        {
+          "start": 78,
+          "end": 91,
+          "type": "name",
+          "value": "Wilfred Ferns",
+          "meta": {
+            "layer": "compromise"
+          },
+          "priority": 60
+        }
+      ]
+    },
+    {
+      "id": "kmp-vijay-bio",
+      "predictions": [
+        {
+          "start": 98,
+          "end": 115,
+          "type": "date_of_birth",
+          "value": "November 28, 1970",
+          "priority": 75
+        }
+      ]
+    },
+    {
+      "id": "kmp-alen-bio",
+      "predictions": [
+        {
+          "start": 5,
+          "end": 18,
+          "type": "name",
+          "value": "Wilfred Ferns",
+          "meta": {
+            "layer": "compromise"
+          },
+          "priority": 60
+        },
+        {
+          "start": 134,
+          "end": 148,
+          "type": "date_of_birth",
+          "value": "March 15, 1982",
+          "priority": 75
+        }
+      ]
+    },
+    {
+      "id": "statutory-block",
+      "predictions": [
+        {
+          "start": 68,
+          "end": 146,
+          "type": "address",
+          "value": "C-32, Bandra Kurla Complex, Bandra East, Mumbai – 400 051, Maharashtra, India",
+          "meta": {
+            "pin": "400 051"
+          },
+          "priority": 70
+        },
+        {
+          "start": 175,
+          "end": 196,
+          "type": "cin",
+          "value": "U74120MH2012PLC230380",
+          "priority": 82
+        }
+      ]
+    },
+    {
+      "id": "incorporation-history",
+      "predictions": [
+        {
+          "start": 51,
+          "end": 74,
+          "type": "company",
+          "value": "NSDL Depository Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 151,
+          "end": 190,
+          "type": "company",
+          "value": "National Securities Depository Limited.",
+          "priority": 55
+        }
+      ]
+    },
+    {
+      "id": "selling-shareholders",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "company",
+          "value": "IDBI Bank Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 22,
+          "end": 41,
+          "type": "company",
+          "value": "State Bank of India",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        },
+        {
+          "start": 98,
+          "end": 115,
+          "type": "company",
+          "value": "HDFC Bank Limited",
+          "meta": {
+            "source": "known_entity"
+          },
+          "priority": 55
+        }
+      ]
+    },
+    {
+      "id": "appointment-paragraph",
+      "predictions": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "name",
+          "value": "Samar Banwat",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        },
+        {
+          "start": 64,
+          "end": 77,
+          "type": "name",
+          "value": "Vijay Chandok",
+          "meta": {
+            "layer": "title_cue"
+          },
+          "priority": 60
+        }
+      ]
+    },
+    {
+      "id": "boilerplate-negative",
+      "predictions": []
+    }
+  ],
+  "syntheticDetectorOutput": [
+    {
+      "id": "synthetic-mixed-paragraph",
+      "predictions": [
+        {
+          "start": 41,
+          "end": 52,
+          "type": "ssn",
+          "value": "123-45-6789",
+          "priority": 87
+        },
+        {
+          "start": 68,
+          "end": 79,
+          "type": "ssn",
+          "value": "987-65-4321",
+          "priority": 87
+        },
+        {
+          "start": 110,
+          "end": 126,
+          "type": "credit_card",
+          "value": "4111111111111111",
+          "priority": 88
+        },
+        {
+          "start": 142,
+          "end": 161,
+          "type": "credit_card",
+          "value": "5555 5555 5555 4444",
+          "priority": 88
+        },
+        {
+          "start": 194,
+          "end": 207,
+          "type": "ip_address",
+          "value": "192.168.10.45",
+          "priority": 80
+        },
+        {
+          "start": 222,
+          "end": 233,
+          "type": "ip_address",
+          "value": "10.20.30.40",
+          "priority": 80
+        },
+        {
+          "start": 270,
+          "end": 286,
+          "type": "date_of_birth",
+          "value": "January 14, 1985",
+          "priority": 75
+        },
+        {
+          "start": 353,
+          "end": 369,
+          "type": "date_of_birth",
+          "value": "January 14, 2025",
+          "priority": 75
+        }
+      ],
+      "negative_controls": [
+        {
+          "value": "January 14, 2025",
+          "reason": "bare filing date — no DOB cue within window"
+        },
+        {
+          "value": "1234567890123456",
+          "reason": "16-digit reference — fails Luhn"
+        },
+        {
+          "value": "00012345",
+          "reason": "DIN-style number — not SSN format"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-ssn-only",
+      "predictions": [
+        {
+          "start": 57,
+          "end": 68,
+          "type": "ssn",
+          "value": "456-78-9012",
+          "priority": 87
+        }
+      ]
+    },
+    {
+      "id": "synthetic-born-on",
+      "predictions": [
+        {
+          "start": 48,
+          "end": 58,
+          "type": "date_of_birth",
+          "value": "22/08/1978",
+          "priority": 75
+        },
+        {
+          "start": 82,
+          "end": 92,
+          "type": "date_of_birth",
+          "value": "22/08/2025",
+          "priority": 75
+        }
+      ],
+      "negative_controls": [
+        {
+          "value": "22/08/2025",
+          "reason": "offer date — no DOB cue"
+        }
+      ]
+    }
+  ]
+}
